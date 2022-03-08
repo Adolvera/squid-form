@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Squid Games Form</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="img/squid.png">
+</head>
+<body>
+  <div id="header" class="flex">
+    <div id="left-side">
+      <h3>Sign-up Form</h3>
+    </div>
+    <div id="right-side">
+      <ul class="flex" id="links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Play the Game</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <section id="main" class="flex">
+    <div id="background-left">
+      <div id="logo-text">
+        <img src="/img/squid.png" alt="/">
+        <p id="text-squid">Squid Game</p>
+      </div>
+    </div>
+
+    <div id="main-content">
+      <p id="para">This is not a real online service! If you're tired of living paycheck to paycheck and want an easy way out, sign up below! The only thing standing between you and infinite money is completing the simple form below! What are you waiting for?</p>
+      <h3>You know what to do!</h3>
+
+      <form action="/" method="post" id="form">
+        <fieldset>
+          <h2>1st place is a form away!</h2>
+          <div class="flex">
+            <div class="flex-check">
+              <label for="fname">FIRST NAME</label>
+              <input type="text" id="fname" name="firstName" placeholder="John" required>
+            </div>
+            <div class="flex-check">
+              <label for="lname">LAST NAME</label>
+              <input type="text" id="lname" name="lastName" placeholder="Doe" required>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex-check">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            </div>
+            <div class="flex-check">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phoneNumber" placeholder="XXX-XXX-XXXX" required>
+            </div>
+          </div>
+          <div class="flex">
+            <div class="flex-check">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password" required>
+            </div>
+            <div class="flex-check">
+              <label for="confirm-pass">CONFIRM PASSWORD</label>
+              <input type="password" id="confirm-pass" name="passwordCheck" required>
+            </div>
+          </div>
+        </fieldset>
+        
+      </form>
+
+      <button type="submit" form="form" value="Submit">Create Account</button>
+
+      <p>Already have an account? <a href="/">Log in</a></p>
+    </div>
+  </section>
+
+  <footer class="flex">
+    <a href="https://www.flaticon.com/free-icons/squid" title="squid icons">Squid icons created by Freepik - Flaticon</a>
+    <p>Photo by <a href="https://unsplash.com/@tlemaitre?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Thierry Lemaitre</a> on <a href="https://unsplash.com/collections/8892464/wh-questions-speech-%26-language-?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></p>
+  </footer>
+  
+</body>
+</html>
